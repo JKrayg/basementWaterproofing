@@ -26,3 +26,12 @@ body {
 .allMenu {
     text-align: center;
 }
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .menu {
+        height: 100px;
+    }
+}
