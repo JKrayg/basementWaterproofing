@@ -50,8 +50,8 @@ body {
 
 
 
-/* @media only screen and (max-width: 767px) {
-    .menu {
-        width: 50%;
+@media only screen and (max-width: 767px) {
+    button.close {
+        height: 100px;
     }
-} */
+}
