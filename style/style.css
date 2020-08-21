@@ -4,7 +4,7 @@ body {
 
 .container {
     margin-top: 50px;
-    width: 960px;
+    max-width: 960px;
 }
 
 .menu {
@@ -49,12 +49,14 @@ body {
 
 .dropdown {
     float: left;
-    padding: 10px;
+    padding: 20px;
+    background-color: white;
+    /* //max-width: 960px; */
 }
 
 .dropdown-toggle {
-    padding: 20px;
-    width: 445px;
+    padding: 40px 20px;
+    width: 420px;
 }
 
 
