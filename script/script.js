@@ -1,7 +1,14 @@
 $(document).ready(function() {
     $('.modal').hide();
 
-    $("#foundationDropDown").on("click", function() {
+    $("#permanentlyStabilize1").on("click", function() {
+        $('.modal').show();
+        $("#modalPhoto1").attr("src", "style/images/Scan 1.png");
+        $("#modalPhoto2").attr("src", "style/images/Scan.png");
+
+    })
+
+    $("#pushPier").on("click", function() {
         $('.modal').show();
         $("#modalPhoto1").attr("src", "style/images/Scan 1.png");
         $("#modalPhoto2").attr("src", "style/images/Scan.png");
@@ -18,9 +25,9 @@ $(document).ready(function() {
         $("#modalPhoto1").attr("src", "style/images/stabilizennsecure.png");
         $("#modalPhoto2").attr("src", "style/images/stabilizensecure1.png");
 
-    })
+    // })
 
-    $("#permanentlyStabilize").on("click", function() {
+    // $("#permanentlyStabilize").on("click", function() {
         $('.modal').show();
         $(".carousel-indicators").append("<li data-target='#carouselExampleIndicators' data-slide-to='2'></li>" + 
         "<li data-target='#carouselExampleIndicators' data-slide-to='3'></li>")
