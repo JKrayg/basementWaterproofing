@@ -1,6 +1,8 @@
 $(document).ready(function () {
     $('.modal').hide();
 
+    $("#price").html("Free")
+
     $("#pushPier").on("click", function () {
         $('.modal').show();
         $("#modalPhoto1").attr("src", "style/images/Scan 1.png");
